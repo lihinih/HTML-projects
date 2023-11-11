@@ -1,0 +1,287 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container-bar-item img {
+    width: 150%;
+    margin: auto;
+}
+
+html {
+    font-family: Verdana;
+    scroll-behavior: smooth;
+    font-size: large;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #6b0404;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 3rem;
+}
+
+main {
+    background-color: #aa910e;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://usagif.com/wp-content/uploads/2021/4fh5wi/flag-of-sri-lanka-1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-img {
+    padding-top: 10px;
+    padding-left: 1rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.logo a {
+    background-color: #6b0404;
+    color: floralwhite;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap: 50px;
+    justify-content: end;
+}
+
+ul li a {
+    background-color: #6b0404;
+    color: floralwhite;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #a00606;
+}
+
+.logo a:hover {
+    background-color: #a00606;
+}
+
+
+#section1 {
+    width: 100%;
+    padding: 20px;
+}
+
+#section2 {
+    width: 100%;
+    margin-bottom: 200px;
+    padding: 20px;
+
+}
+
+#section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Adjust as needed */
+    align-items: flex-start;
+    /* Adjust as needed */
+    margin-bottom: 100px;
+}
+
+.img-lanka {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin: auto;
+}
+
+figcaption {
+    text-align: left;
+    color: #070202;
+}
+
+figure {
+    padding: 0;
+    margin: 0.5rem;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 300px;
+    margin-bottom: 0;
+    color: #070202;
+}
+
+.img-gallery {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin: auto;
+}
+
+.srilanka_p {
+    text-align: center;
+    color: #070202;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.col {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin: 6px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-image {
+    width: 325px;
+    height: 200px;
+    text-align: left;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #e1dda1;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.sec-2 {
+    margin-top: 35px;
+}
+
+.sec-3 {
+    padding-left: 1rem;
+    margin-bottom: 20px;
+}
+
+.gallery_p{
+text-align: left;
+padding-left: 0;
+}
+.sec-3 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.section_p {
+    text-align: left;
+    padding: 0.5rem;
+}
+
+section {
+    width: 100px;
+    display: flex;
+}
+
+section p {
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.contact-info {
+
+
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.contact-info h2 {
+    color: #070202;
+    padding-left: 1rem;
+}
+
+.contact-info p {
+    text-align: left;
+}
+
+.map {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.map-image {
+    width: 100%;
+    height: 400px;
+    /* Adjust as needed */
+    max-width: 100%;
+    margin-left: 6rem;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    section {
+        width: 80%;
+    }
+
+    li {
+        width: 10rem;
+    }
+
+    header {
+        width: 80%;
+    }
+
+    .map-image {
+        width: 80%;
+    }
+
+    .col {
+        width: 80%;
+    }
+}
